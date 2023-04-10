@@ -61,7 +61,7 @@ namespace TemplateCat
             //-- The ID of the spritesheet we will be using as the default sprites for our slugcat
             var sheetID = "vigaro.templatecat";
 
-            //-- Each player slog (0, 1, 2, 3) can be customized individually
+            //-- Each player slot (0, 1, 2, 3) can be customized individually
             for (int i = 0; i < 4; i++)
             {
                 SpriteDefinitions.AddSlugcatDefault(new Customization()
