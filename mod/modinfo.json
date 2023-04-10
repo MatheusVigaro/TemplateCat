@@ -1,0 +1,11 @@
+{
+	"id": "dressmyslugcat.templatecat",
+	"name": "TemplateCat",
+	"version": "1.0.0",
+	"hide_version": false,
+	"authors": "Vigaro",
+	"description": "TemplateCat",
+	"requirements": ["dressmyslugcat", "slime-cubed.slugbase"],
+	"requirements_names": ["Dress My Slugcat", "SlugBase"],
+	"checksum_override_version": false
+}
