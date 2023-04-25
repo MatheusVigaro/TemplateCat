@@ -31,6 +31,7 @@ namespace TemplateCat
         public static bool IsPostInit;
         private void RainWorld_PostModsInit(On.RainWorld.orig_PostModsInit orig, RainWorld self)
         {
+            orig(self);
             try
             {
                 if (IsPostInit) return;
