@@ -81,12 +81,14 @@ namespace TemplateCat
                         new CustomSprite() { Sprite = "TAIL", SpriteSheetID = sheetID }
                     },
 
-                    //-- Customizing the tail size and color is also supported, values should be set between 0 and 1
+                    //-- Customizing the tail size and color is also supported. The values should match what you want on the sliders in-game.
+                    //-- Remove them if you want them to default to a regular tail size
                     CustomTail = new CustomTail()
                     {
-                        Length = i / 4f,
-                        Wideness = i / 4f,
-                        Roundness = 0.3f
+                        Length = 4f,
+                        Wideness = 1f,
+                        Roundness = 0.1f,
+                        ForbidTailResize = false //-- If you have special code for your tail that could break if the tail size is changed, set this value to true to prevent users from changing the tail size.
                     }
                 });
             }
